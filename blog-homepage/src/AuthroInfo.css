@@ -1,0 +1,12 @@
+#circle, #circle .segment{
+    border-radius:50%;     
+    border-style:solid;
+    box-sizing: border-box;
+    height:40px;
+    background-position: inherit;
+    width: 40px;
+    border-top: solid green 2px;
+    border-bottom: solid green 2px;
+    clip-path: inset(0% 10% 0% 10%);
+    left: -1px;
+}

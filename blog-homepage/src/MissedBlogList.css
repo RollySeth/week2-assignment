@@ -1,0 +1,87 @@
+.MissedBlogList {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    min-height: 50vh;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color:lightgray;
+ 
+ 
+}
+
+.MissedBlogList button {
+    margin-left: 10px;
+}
+
+.Blog-ForYou2{
+   
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+   
+  }
+
+  .table-style2{
+    border-style: solid;
+    border-color: lightgray;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 20px; 
+    max-height: 20px;
+    font-size: 10px;
+    margin-left:10px;
+    margin-top:10px
+
+  
+  }
+
+  .heading{
+      font-size: 15px;
+
+  }
+  .blogfooter{
+   margin-top: 20px;
+   font-size:10px;
+  }
+  .blogdes{
+      margin-top:20px;
+      color:lightslategray ;
+      font-size:12px;
+      
+  }
+  .bookmarklogo{
+     width: 25px;
+     height:25px;
+     margin-left: 55px;
+
+  }
+  .memberIcon2{
+    width: 15px;
+    height:15px;
+    margin-left: 0px;
+  }
+  .audioIcon{
+    width: 20px;
+    height:20px;
+    margin-right: 5px;
+  
+  }
+.member{
+    align-items: left;
+    justify-content: left;
+}
+  #circle, #circle .segment{
+      border-radius:50%;     
+      border-style:solid;
+      box-sizing: border-box;
+      height:40px;
+      background-position: inherit;
+      width: 40px;
+      border-top: solid green 2px;
+      border-bottom: solid green 2px;
+      clip-path: inset(0% 10% 0% 10%);
+      left: -1px;
+  }
